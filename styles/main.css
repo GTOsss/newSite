@@ -7,15 +7,46 @@ font-family: 'PT Serif', serif;*/
 	height: 625px;
 	background-image: url(../img/1.png);
 	background-repeat: no-repeat;
-	background-size: 100% 100%;	
+	background-size: 100% 100%;
+	box-shadow: inset 0 0px 110px 120px rgba(143,120,107,0.9);
 }
+.roc{
+	text-align: center;
+}
+.head {
+	height: 100px;
+}
+
+.head input {
+	width: 310px;
+	height: 30px;
+	/*background-color: rgba(143,120,107,0.7);*/
+	opacity: 0.3;
+	border: 1px solid rgb(143,120,107);
+}
+/*#minys {
+	margin-left: -45px;
+}*/
+
+
+
+
+
+
 .lenta {
+	margin-top: -100px;
 	z-index: 2;
 	position: relative;
 	height: 315px;
 	background-color: #ecebe2;
 	box-shadow: 0 2px 30px 3px rgba(0,0,0,0.4);
 }
+
+
+
+
+
+
 
 .arock {
 	height: 420px;
@@ -27,12 +58,25 @@ font-family: 'PT Serif', serif;*/
 	box-shadow: inset 0 2px 10px 0 rgba(0,0,0,0.5);
 }
 
+
+
+
+
+
+
 .prev_contact {
 	height: 355px;
 	background-color: #ecebe2;
 	position: relative;
 	z-index: 1;
 }
+
+
+
+
+
+
+
 
 .map {
 	margin-top: -240px;
@@ -41,11 +85,27 @@ font-family: 'PT Serif', serif;*/
 	width: 960px;
 	height: 325px;
 }
+
+
+
+
+
+
+
+
 .contact {
 	height: 210px;
 	position: relative;
 	z-index: 1;
+	/*box-shadow: 0 1px 8px 0 rgba(0,0,0,0.4);*/
 }
+
+
+
+
+
+
+
 
 .footer {
 	height: 110px;
