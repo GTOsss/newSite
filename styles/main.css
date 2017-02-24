@@ -1,4 +1,53 @@
-/*div {
-	background: gray;
-}*/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700&subset=cyrillic');
 
+/*font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif;*/
+
+.header {
+	height: 625px;
+	background-image: url(../img/1.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+}
+.lenta {
+	z-index: 2;
+	position: relative;
+	height: 315px;
+	background-color: #ecebe2;
+	box-shadow: 0 2px 30px 3px rgba(0,0,0,0.4);
+}
+
+.arock {
+	height: 420px;
+	background-image: url(../img/2.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+	position: relative;
+	z-index: 1;
+	box-shadow: inset 0 2px 10px 0 rgba(0,0,0,0.5);
+}
+
+.prev_contact {
+	height: 355px;
+	background-color: #ecebe2;
+	position: relative;
+	z-index: 1;
+}
+
+.map {
+	margin-top: -240px;
+	position: relative;
+	z-index: 2;
+	width: 960px;
+	height: 325px;
+}
+.contact {
+	height: 210px;
+	position: relative;
+	z-index: 1;
+}
+
+.footer {
+	height: 110px;
+	background-color: #887467;
+}
