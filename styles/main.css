@@ -96,3 +96,100 @@ div:nth-child(4) .menu-icon {
 	display: table-caption;
 	caption-side: bottom;
 }
+
+.search {
+	border-collapse: collapse;
+	border: none;
+	margin: 10px;
+	border-radius: 4px;
+	font-family: sans-serif;
+	width: 308px;
+	position: absolute;
+	top: 18px;
+	right: 100px;
+}
+
+.search tr:nth-child(2) {
+	display: block;
+	background: rgba(63, 42, 35, 0.51);
+	border-radius: 4px;
+	border-top: 1px solid rgba(0, 0, 0, 0.41);
+	border-bottom: 1px solid rgba(252, 245, 225, 0.4);
+}
+
+.search td:nth-child(2) {
+	cursor: pointer;
+	width: 22px;
+}
+
+.search .input-search {
+	background: none;
+	border: none;
+	color: inherit;
+	padding-left: 4px;
+	width: 286px;
+}
+
+.discount-window {
+	width: 35%;
+	height: 200px;
+	margin: 4% 0 0 10%;
+	border-top: 3px solid white;
+	background: rgba(81, 56, 48, 0.9);
+}
+
+.discount-window h1 {
+	color: white;
+	font-weight: normal;
+	margin: 0;
+	padding: 5% 1% 0 5%;
+	font-size: 22px;
+}
+
+.discount-window p {
+	margin: 0;
+	padding: 5% 1% 0 5%;
+	font-size: 16px;
+}
+
+.discount-window .text-input {
+	padding: 0 0 0 4px;
+	margin: 6% 0 0 5%;
+	height: 13%;
+	width: 50%;
+	display: inline-block;
+	position: relative;
+	color: #513830;
+	box-sizing: border-box;
+}
+
+.base { 
+	display: inline-block;
+	vertical-align: top;
+	padding: 0;
+	height: 13%;
+	width: 77px;
+	left: -4px;
+	margin: 6% 0 0 0;
+	background: #f57453; 
+	position: relative; 
+	color: #fff;
+	cursor: pointer;
+} 
+
+.base::before {
+	content: ''; 
+	position: absolute; 
+	left: 100%;
+	border: 13px solid transparent; 
+	border-left: 6px solid #f57453;
+}
+
+.base > span {
+	display: block;
+	position: relative;
+	font-family: sans-serif;
+	margin: 5px 0 0 10px;
+	color: white;
+	vertical-align: top;
+}
