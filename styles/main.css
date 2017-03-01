@@ -168,7 +168,6 @@ div:nth-child(4) .menu-icon {background-position: -248px 0px;}
 		font-size: 14px;
 		background-position: top;
 		margin: 0;
-/*		padding-top: 28px;*/
 		height: 50px;
 	}
 	
@@ -207,6 +206,61 @@ div:nth-child(4) .menu-icon {background-position: -248px 0px;}
 		margin: 0;
 		z-index: 10;
 		width: 94%;
+		left: 3%;
+		top: 300px;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 1160px) {
+	.logo {
+		left: 40%;
+		background-size: 60%;
+		font-size: 14px;
+		background-position: top;
+		margin: 0;
+		height: 50px;
+	}
+	
+	.logo span {
+		top: -18px;
+		margin: 0;
+	}
+	
+	.panel-menu {
+		height: 340px;
+	}
+	
+	.menu {
+		position: relative;
+		margin: 0;
+		padding: 0;
+		top: 90px;
+		left: -10;
+	}
+	
+	.search tr:nth-child(1){
+		display: none;
+	}
+	
+	.search {
+		position: relative;
+		top: 100px;
+		left: 20px;
+		width: 200px;
+	}
+	
+	.search .sign {
+		position: absolute;
+		left: 94%;
+		top: 0;
+	}
+	
+	.discount-window {
+		position: absolute;
+		top: 0;
+		margin: 0;
+		z-index: 10;
+		width: 50%;
 		left: 3%;
 		top: 300px;
 	}
@@ -623,10 +677,9 @@ div:nth-child(4) .menu-icon {background-position: -248px 0px;}
 	}
 }
 
-@media screen and (min-width:480px) and (max-width:800px) {
+@media screen and (min-width:480px) and (max-width:1100px) {
 	h1 {
 		font-size: 20px;
-		
 	}
 	
 	.layer-directions h1:before {
@@ -637,6 +690,53 @@ div:nth-child(4) .menu-icon {background-position: -248px 0px;}
 	.layer-directions h1:after {
 		width: 15%;
 		margin: 0 0 4px 4px;
+	}
+	
+	.layer-directions {
+		height: 610px;
+	}	
+	
+	.plate-container {
+		display: flex;
+		align-content: center;
+		justify-content: center;
+	}
+	
+	.container-table {
+		margin: auto;
+	}
+	
+	.wrapper-directions {
+		padding: 0px;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	h1, .body-content h1, .discount-window h1  {
+		font-size: 20px;
+	}
+	
+	.layer-directions h1:before {
+		width: 10%;
+    	margin: 0 4px 4px 0;
+	}
+
+	.layer-directions h1:after {
+		width: 10%;
+		margin: 0 0 4px 4px;
+	}
+
+	.table-directions {
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		margin-top: 20px;
+	}
+}
+
+@media screen and (min-width:480px) and (max-width:760px) {
+	.container-table > .klammer {
+		display: none;
 	}
 }
 
