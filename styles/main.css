@@ -178,7 +178,7 @@ div:nth-child(4) .menu-icon {background-position: -248px 0px;}
 	}
 	
 	.panel-menu {
-		height: 380px;
+		height: 340px;
 	}
 	
 	.menu {
@@ -196,8 +196,9 @@ div:nth-child(4) .menu-icon {background-position: -248px 0px;}
 	.search {
 		position: relative;
 		top: 80px;
-		left: 2%;
-		width: 90%;
+		left: 0;
+		width: 80%;
+		margin: auto;
 	}
 	
 	.discount-window {
@@ -743,34 +744,9 @@ div:nth-child(4) .menu-icon {background-position: -248px 0px;}
 }
 
 .form-contact .button:active {
-	width: 30%;
-	height: 38px;
-	margin: 0;
-	background-color: #6a4c43;
-	color: #ede7d5;
 	border-top: 3px solid #342622;
 	border-bottom: 0px solid #342622;
 	outline: none;
-}
-
-@media screen and (max-width:479px) {
-	.wrapper-contacts {
-		flex-direction: column;
-		height: 700px;
-	}
-	
-	.map {
-		width: 94%;
-		height: 350px;
-		box-sizing: border-box;
-		margin: 0 0 0 3%;
-	}
-
-	.form-contact { 
-		width: 98%;
-		margin: 0 0 0 1%;
-		background-position: 
-	}
 }
 
 .footer {
@@ -788,4 +764,35 @@ div:nth-child(4) .menu-icon {background-position: -248px 0px;}
 	font-size: 16px;
 	color: black;
 	
+}
+
+@media screen and (max-width:479px) {
+	.contacts-conteiner h1:before {width: 20%;}
+	.contacts-conteiner h1:after {width: 20%;}
+	
+	.contacts-conteiner {
+		height: 720px;
+	}
+	
+	.wrapper-contacts {
+		flex-direction: column;
+		height: 650px;
+	}
+	
+	.map {
+		width: 82%;
+		height: 350px;
+		box-sizing: border-box;
+		margin: 0 0 0 9%;
+	}
+
+	.form-contact { 
+		width: 60%;
+		margin: 30px 0 0 20%;
+		background-position: 
+	}
+	
+	.form-contact .button {
+		width: 100%;
+	}
 }
