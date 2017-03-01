@@ -88,10 +88,11 @@ div:nth-child(4) .menu-icon {background-position: -248px 0px;}
 	top: 14px;
 }
 
-.logo > p {
+.logo > span {
 	margin-top: 10px;
 	display: table-caption;
 	caption-side: bottom;
+	position: relative;
 }
 
 .search {
@@ -167,11 +168,13 @@ div:nth-child(4) .menu-icon {background-position: -248px 0px;}
 		font-size: 14px;
 		background-position: top;
 		margin: 0;
-		padding-top: 28px;
+/*		padding-top: 28px;*/
+		height: 50px;
 	}
 	
 	.logo span {
-		top: 100px;
+		top: -18px;
+		margin: 0;
 	}
 	
 	.panel-menu {
