@@ -536,3 +536,135 @@ div:nth-child(4) .menu-icon {
 .container-table {
 	display: flex;
 }
+
+  /*----------------------------- ----направления--- -----------------------------*/
+   /*----------------------------- ----контакты--- -----------------------------*/
+.contacts-conteiner {
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	background-color: #ecebe2;
+	padding-top: 20px;
+	-webkit-box-shadow: 0px -3px 14px 8px rgba(0,0,0,0.37);
+	-moz-box-shadow:    0px -3px 14px 8px rgba(0,0,0,0.37);
+	box-shadow: 	 	0px -3px 14px 8px rgba(0, 0, 0, 0.22);
+
+}
+
+.contacts-conteiner h1 {
+	color: #46382f;
+	margin-top: 0;
+}
+
+.contacts-conteiner h1:before {
+	content: "";
+	display: inline-block;
+	background: black;
+	height: 2px;
+	width: 30%;
+	margin: 0 3% 8px 3%;
+}
+
+.contacts-conteiner h1:after {
+	content: "";
+	display: inline-block;
+	background: black;
+	height: 2px;
+	width: 30%;
+	margin: 0 3% 8px 3%;
+}
+
+.map {
+	width: 450px;
+	height: 350px;
+	border: 2px solid #343030;
+}
+
+
+.wrapper-contacts {
+	height: 500px;
+	display: flex;
+	justify-content: center;
+}
+
+.form-contact {
+	width: 450px;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 60px;
+	align-content: space-around;
+}
+
+.form-contact input {
+	margin-bottom: 10px;
+	padding: 4px;
+	border-radius: 4px;
+	border: none;
+	background-color: #d9d1ca;
+	outline: none;
+	box-sizing: border-box;
+	height: 24px;
+}
+
+.form-contact input:focus {
+	border: 1px solid #6a4c43; 
+}
+
+.form-contact textarea {
+	margin-bottom: 10px;
+	resize: none;
+	border: none;
+	border-radius: 4px;
+	background-color: #d9d1ca;
+	outline: none;
+	box-sizing: border-box;
+	height: 90px;
+	padding: 4px;
+}
+
+.form-contact textarea:focus {
+	border: 1px solid #6a4c43; 
+}
+
+.form-contact .button {
+	width: 30%;
+	height: 38px;
+	margin: 0;
+	background-color: #6a4c43;
+	color: #ede7d5;
+	border-bottom: 3px solid #342622;
+	outline: none;
+}
+
+.form-contact .button:active {
+	width: 30%;
+	height: 38px;
+	margin: 0;
+	background-color: #6a4c43;
+	color: #ede7d5;
+	border-top: 3px solid #342622;
+	border-bottom: 0px solid #342622;
+	outline: none;
+}
+
+@media screen and (max-width:479px) {
+	.wrapper-contacts {
+		flex-direction: column;
+		height: 700px;
+	}
+	
+	.map {
+		width: 94%;
+		height: 350px;
+		box-sizing: border-box;
+		margin: 0 0 0 3%;
+	}
+
+	.form-contact { 
+		width: 98%;
+		margin: 0 0 0 1%;
+		background-position: 
+	}
+}
