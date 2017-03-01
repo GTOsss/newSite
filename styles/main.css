@@ -62,17 +62,9 @@ body {
 	cursor: pointer;
 }
 
-div:nth-child(2) .menu-icon {
-	background-position: -84px 0px;
-}
-
-div:nth-child(3) .menu-icon {
-	background-position: -168px 0px;
-}
-
-div:nth-child(4) .menu-icon {
-	background-position: -248px 0px;
-}
+div:nth-child(2) .menu-icon {background-position: -84px 0px;}
+div:nth-child(3) .menu-icon {background-position: -168px 0px;}
+div:nth-child(4) .menu-icon {background-position: -248px 0px;}
 
 .menu-text {
 	display: table-cell;
@@ -166,6 +158,54 @@ div:nth-child(4) .menu-icon {
 	position: relative;
 	color: #513830;
 	box-sizing: border-box;
+}
+
+@media screen and (max-width: 479px) {
+	.logo {
+		left: 40%;
+		background-size: 60%;
+		font-size: 14px;
+		background-position: top;
+		margin: 0;
+		padding-top: 28px;
+	}
+	
+	.logo span {
+		top: 100px;
+	}
+	
+	.panel-menu {
+		height: 380px;
+	}
+	
+	.menu {
+		position: relative;
+		margin: 0;
+		padding: 0;
+		top: 69px;
+		left: -10;
+	}
+	
+	.search tr:nth-child(1){
+		display: none;
+	}
+	
+	.search {
+		position: relative;
+		top: 80px;
+		left: 2%;
+		width: 90%;
+	}
+	
+	.discount-window {
+		position: absolute;
+		top: 0;
+		margin: 0;
+		z-index: 10;
+		width: 94%;
+		left: 3%;
+		top: 300px;
+	}
 }
 
 .base { 
